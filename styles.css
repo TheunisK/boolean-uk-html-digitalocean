@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.logo,
+.header-list1,
+.header-list2 {
+    margin-top: 20px;
+    /* border: green dotted 1px; */
+}
+
+.logo {
+    margin-top: 20px;
+    padding: 3px;
+    padding-left: 0px;
+}
+
+header ul > li {
+    display: inline-block;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+select {
+    border: none;
+}
+
+.header-list2 {
+    padding-left: 150px;
+}
+
+
+.first-section {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    background-color: blue;
+    height: 500px;
+    gap: 10px;
+}
+
+.first-section-left,
+.first-section-right {
+    /* border: dotted green 1px; */
+    margin: 50px;
+}
+
+.first-section-left {
+    margin-left: 300px;
+}
+
+.first-section-left p {
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-top: 20px;
+}
+
+
+h1 {
+    font-size: 4.5rem;
+    color: white;
+}
+
+.first-section-right {
+    margin-right: 300px;
+    background-color: white;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 5px;
+}
+
+.form-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-call {
+    font-size: 2rem;
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.email-entry,
+.password-entry,
+.create-account,
+.google-sign-up {
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.t-and-c {
+    text-align: center;
+}
+
+.create-account {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0.349);
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.google-sign-up {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.041);
+    border: 1px grey solid;
+    border-radius: 5px;
+    
+}
+
+.google-logo {
+    position: absolute;
+    padding: 5px;
+}
+
+.business-section h3 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: rgb(83, 83, 83);
+}
+
+.client-logos {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.client-logos > img {
+    margin-right: 15px;
+}
+
+.customer-service {
+    text-align: center;
+    color: blue;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.business-section h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(83, 83, 83);
+}
+
+.info-blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 400px;
+    margin-right: 400px;
+    gap: 20px;
+    margin-top: 80px;
+
+}
+
+.info-blocks ul,
+.info-blocks > div {
+    /* border: green 1px dotted; */
+    height: 400px;
+    list-style: none;
+}
+
+.info-blocks ul {
+    height: 255px;
+    border-left: solid 2px rgba(83, 83, 83, 0.377);
+    padding: 10px;
+}
+
+.info-blocks ul li {
+    margin-bottom: 30px;
+    color: rgb(83, 83, 83);
+    font-size: 1.5rem;
+    vertical-align: center;
+}
+
+.block1,
+.block2 {
+    display: grid;
+}
+
+.blocks > img,
+.blocks > h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.blocks > p {
+    margin-bottom: 20px;
+    color: rgb(83, 83, 83);
+    font-size: 1.2rem;
+}
+
+.carousel-section h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.carousel-sub-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(83, 83, 83);
+}
+
+.carousel-section > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.carousel-sentence {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.feature-section h2 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.feature-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 20px;
+}
+
+.features {
+    /* border: dotted green 1px; */
+}
+
+.features img,
+.features h3 {
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+.feature-text {
+    font-size: 1.2rem;
+    color:  rgb(83, 83, 83);
+    margin-bottom: 15px;
+}
+
+.link-word {
+    color: blue;
+}
+
+
